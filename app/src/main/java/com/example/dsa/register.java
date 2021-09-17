@@ -20,6 +20,11 @@ public class register<phoneNumber, phone> extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toHome(View view) {
+        Intent intent=new Intent(view.getContext(),home_page.class);
+        startActivity(intent);
+    }
+
 
 }
 

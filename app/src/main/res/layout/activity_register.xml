@@ -189,8 +189,7 @@
                 android:layout_marginTop="20dp"
                 android:text="@string/password"
                 android:textColor="#00008B"
-                android:textSize="16sp"
-                android:inputType="textPassword" />
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/password"
@@ -201,7 +200,8 @@
                 android:hint="@string/enterPassword"
                 android:padding="5dp"
                 android:textColor="#000"
-                android:layout_width="375dp"/>
+                android:layout_width="375dp"
+                android:inputType="textPassword"/>
         </LinearLayout>
 
 
@@ -218,7 +218,6 @@
                 android:text="ConfirmPassword"
                 android:textColor="#00008B"
                 android:textSize="16sp"/>
-<!--                android:inputType="textPassword" />-->
 
             <EditText
                 android:id="@+id/check_password"
@@ -229,7 +228,8 @@
                 android:hint="Re-enter Password"
                 android:padding="5dp"
                 android:textColor="#000"
-                android:layout_width="375dp"/>
+                android:layout_width="375dp"
+                android:inputType="textPassword"/>
         </LinearLayout>
 
 
@@ -245,7 +245,8 @@
             android:text="@string/register"
             android:textColor="#000"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="toHome"/>
     </TableRow>
     <TableRow android:layout_marginTop="20dp">
         <TextView

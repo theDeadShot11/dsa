@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         ed2.getText().toString().equals("admin")) {
                     Toast.makeText(getApplicationContext(),
                             "Successfully Logged In",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getApplicationContext(), EditProfile.class);
+                    Intent intent = new Intent(v.getContext(), ProfileEdit.class);
                     startActivity(intent);
 
                 }else{
